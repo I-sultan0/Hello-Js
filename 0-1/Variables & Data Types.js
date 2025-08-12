@@ -35,7 +35,7 @@ console.log(`primitiveNumber - ${primitiveNumber}`);
 
 // Objects holds a reference to their value, when you copy an Object data type,
 //  you copy their reference value rather than actual value, so when you update the copied
-//  version of an Object data type it changes the value of the original since both have the same reference value.
+//  version of an Object data type, it changes the value of the original since both have the same reference value.
 
 const objectType = { a: "apple", b: "banana", c: { d: "doctor", e: "egg" } };
 const copyObjectType = objectType;
